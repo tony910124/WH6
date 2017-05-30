@@ -1,0 +1,122 @@
+@media (max-width:480px) {
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .header{
+    height: 85px;
+    top: 0px;
+    width: 100%;
+  }
+
+  .header_left img {
+    height: 70px;
+  }
+
+  .header_center{
+    width: 100%;
+  }
+
+  .header_left, .header_center{
+    padding-top:  10px;
+  }
+
+  .header span.burger_menu{
+    display: block;
+    color: white;
+    z-index: 99999999;
+  }
+
+  .header span.burger_menu:hover{
+    color: white;
+    cursor: pointer;
+  }
+
+  .menu{
+    background-color: rgb(35,35,35);
+		position: absolute;
+		top: 0px;
+		left: 0;
+		width: 100%;
+    display: none;
+  }
+
+  .menu li{
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #FFF;
+    margin: 0;
+    padding: 0;
+    float: none;
+    width: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .menu li a{
+    transition: none;
+    pointer-events: none;
+  }
+
+
+  .menu a{
+    margin: 0;
+  }
+
+  .header_right{
+    display: none;
+  }
+
+  .first_block {
+    padding-top: 70px;
+  }
+
+  .first_block_footer{
+    margin-top: -13% !important;
+  }
+
+  .context p{
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .context h4{
+    font-size: 19px;
+    text-align: justify;
+  }
+
+  .transfer_img{
+    height: 90px;
+  }
+
+  .third_block .picture img{
+    width: auto;
+    height: 200px;
+  }
+
+  .community{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .about_us, .service{
+    display: none;
+  }
+
+  .community img{
+    height: 50px;
+    margin: 5px 20px;
+  }
+
+
+}
