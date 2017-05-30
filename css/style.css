@@ -200,7 +200,9 @@ html{
   text-align: center;
 }
 
-
+.footer a{
+  text-decoration: none;
+}
 
 .contact_block{
   color: #FFF;
